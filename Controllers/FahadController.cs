@@ -10,6 +10,11 @@ namespace DotNetProject.Controllers
     public class FahadController : Controller
     {
         // GET: Protfolio
+        public ActionResult Ashik() 
+        { 
+            ViewBag.Name = "Welcome";
+            return View(); 
+        }  
         public ActionResult Fahad()
         {
             ViewBag.Fahad = "MD Sahebuzzaman Fahad";
